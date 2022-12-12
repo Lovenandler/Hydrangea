@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bouquetCard"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="12dp"
+    android:padding="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_item"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/card_item"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/imageSearchItem"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/d08c7946_5c38_4ef8_9523_c473a2709644" />
+        <TextView
+            android:id="@+id/txtPriceSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1790"
+            android:layout_gravity="start"
+            android:fontFamily="@font/helvetica_bold"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtNameSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Букет"
+            android:fontFamily="@font/helvetica_light"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

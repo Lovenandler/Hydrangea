@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_signIn">Введите ваш email</string>
+    <string name="password_sign_in">Введите пароль</string>
+    <string name="sign_in_Btn">Войти</string>
+    <string name="registr_sign_in">Вы еще не зарегистрированы? Зарегистрируйтесь</string>
+    <string name="emailSignUp">Введите email</string>
+    <string name="passwordSignUp">Введите пароль</string>
+    <string name="repeatPassSignUp">Повторите пароль</string>
+    <string name="TextToSignIn">Вы уже зарегистрированы, войдите в учетную запись</string>
+</resources>
